@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NavigatorView"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A short description of NavigatorView."
 
   spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/18338626994/NavigatorView.git", :tag => spec.version.to_s }
 
-  spec.source_files  = "NavigatorView/**/*.{h,m}"
+  spec.source_files  = "NavigatorView/NavigatorView/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
