@@ -95,7 +95,7 @@
 		6B5CB9C1232E75800079DA2B /* NavigatorView */ = {
 			isa = PBXGroup;
 			children = (
-				6B5CB9F5232E82D80079DA2B /* Resource */,
+				6B5CB9F5232E82D80079DA2B /* Resources */,
 				6B5CB9C2232E75800079DA2B /* HLMBaseViewController.m */,
 				6B5CB9C3232E75800079DA2B /* HLMNavigatorView.h */,
 				6B5CB9C4232E75800079DA2B /* LayoutView.m */,
@@ -109,13 +109,13 @@
 			path = NavigatorView;
 			sourceTree = "<group>";
 		};
-		6B5CB9F5232E82D80079DA2B /* Resource */ = {
+		6B5CB9F5232E82D80079DA2B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				6B5CB9F6232E82FC0079DA2B /* nav_back@2x.png */,
 				6B5CB9F7232E82FC0079DA2B /* nav_back@3x.png */,
 			);
-			path = Resource;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
