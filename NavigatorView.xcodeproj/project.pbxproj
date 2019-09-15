@@ -18,6 +18,8 @@
 		6B5CB9CD232E75800079DA2B /* NavigatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CB9C6232E75800079DA2B /* NavigatorView.m */; };
 		6B5CB9CE232E75800079DA2B /* HLMNavigatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CB9C8232E75800079DA2B /* HLMNavigatorView.m */; };
 		6B5CB9D0232E76800079DA2B /* NavigatorView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CB9CF232E76800079DA2B /* NavigatorView.podspec */; };
+		6B5CB9F8232E82FC0079DA2B /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CB9F6232E82FC0079DA2B /* nav_back@2x.png */; };
+		6B5CB9F9232E82FC0079DA2B /* nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CB9F7232E82FC0079DA2B /* nav_back@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		6B5CB9C9232E75800079DA2B /* LayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutView.h; sourceTree = "<group>"; };
 		6B5CB9CA232E75800079DA2B /* NavigatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigatorView.h; sourceTree = "<group>"; };
 		6B5CB9CF232E76800079DA2B /* NavigatorView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NavigatorView.podspec; sourceTree = "<group>"; };
+		6B5CB9F6232E82FC0079DA2B /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@2x.png"; sourceTree = "<group>"; };
+		6B5CB9F7232E82FC0079DA2B /* nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		6B5CB9C1232E75800079DA2B /* NavigatorView */ = {
 			isa = PBXGroup;
 			children = (
+				6B5CB9F5232E82D80079DA2B /* Resource */,
 				6B5CB9C2232E75800079DA2B /* HLMBaseViewController.m */,
 				6B5CB9C3232E75800079DA2B /* HLMNavigatorView.h */,
 				6B5CB9C4232E75800079DA2B /* LayoutView.m */,
@@ -102,6 +107,15 @@
 				6B5CB9CA232E75800079DA2B /* NavigatorView.h */,
 			);
 			path = NavigatorView;
+			sourceTree = "<group>";
+		};
+		6B5CB9F5232E82D80079DA2B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CB9F6232E82FC0079DA2B /* nav_back@2x.png */,
+				6B5CB9F7232E82FC0079DA2B /* nav_back@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 				6B5CB9B8232E754B0079DA2B /* LaunchScreen.storyboard in Resources */,
 				6B5CB9B5232E754B0079DA2B /* Assets.xcassets in Resources */,
 				6B5CB9B3232E754A0079DA2B /* Main.storyboard in Resources */,
+				6B5CB9F8232E82FC0079DA2B /* nav_back@2x.png in Resources */,
+				6B5CB9F9232E82FC0079DA2B /* nav_back@3x.png in Resources */,
 				6B5CB9D0232E76800079DA2B /* NavigatorView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
